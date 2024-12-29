@@ -1,0 +1,86 @@
+[
+    {
+        "question": "Where did Henry complete his master's degree?",
+        "expected_answer": "Henry completed his M.S. in Machine Learning and Data Science at Northwestern University, graduating in December 2023.",
+        "generated_answer": "To determine where Henry completed his master's degree, I need to check if he has provided information about his education. Since there is no mention of Henry's education in the given data, I cannot accurately answer this question based solely on the information provided. To properly address this, I would need additional details about Henry's educational background, which might include graduation dates from institutions like Northwestern University or UCLA. Without this information, I must conclude that I do not have sufficient context to provide a specific answer about where Henry completed his master's degree.",
+        "hallucinated_entities_in_response": 0.3333333333333333
+    },
+    {
+        "question": "When did he graduate from UCLA with a bachelor's degree?",
+        "expected_answer": "He graduated from the University of California, Los Angeles, with a B.S. in Applied Mathematics and Statistics in March 2022.",
+        "generated_answer": "To determine when Henry Liang graduated from UCLA, I'll look up the relevant information from his education section:\n\n- His degree is listed as a B.S. in Applied Mathematics, Statistics, Institution: University of California, Los Angeles, Graduation Date: Mar 2022\n\nTherefore, Henry Liang graduated from UCLA with a Bachelor's degree in Applied Mathematics and Statistics in March 2022.",
+        "hallucinated_entities_in_response": 0.6666666666666666
+    },
+    {
+        "question": "What did Henry study for his undergraduate degree?",
+        "expected_answer": "He studied Applied Mathematics and Statistics for his undergraduate degree.",
+        "generated_answer": "Henry studied for his undergraduate degree at Northwestern University.",
+        "hallucinated_entities_in_response": 1.0
+    },
+    {
+        "question": "What is his current role?",
+        "expected_answer": "He is currently a Data Scientist II at Vail Systems, Inc., a role he began in February 2024.",
+        "generated_answer": "Henry Liang's current role is Data Scientist II at Vail Systems, Inc.",
+        "hallucinated_entities_in_response": 1.0
+    },
+    {
+        "question": "What major achievement did Henry accomplish at Vail Systems?",
+        "expected_answer": "Henry created a novel hybrid embedding that reduced the no-context rate for RFP completion by 83.33%, leading to a paper acceptance at the AI-ML Systems Conference in October 2024.",
+        "generated_answer": "Henry Liang accomplished several significant achievements at Vail Systems during his time there. He led the development of a novel hybrid embedding method that significantly reduced the no-context rate for RFP completion by 83.33%. This was recognized at the AI-ML Systems Conference. Additionally, he created a FAQ chatbot using a RAG framework and HNSW indexing, which improved the accuracy of FAQ system responses. His work also involved optimizing the performance of the FAQ chatbot's infrastructure, resulting in a reduction of 65% in latency compared to the previous system. These accomplishments demonstrate his contributions to Vail Systems' product development efforts.",
+        "hallucinated_entities_in_response": 0.8
+    },
+    {
+        "question": "Where did he work before joining Vail Systems?",
+        "expected_answer": "Before joining Vail Systems, he worked as an Applied Scientist Intern at Amazon and a Data Science Intern at Roblox.",
+        "generated_answer": "Before joining Vail Systems, Henry Liang worked as a Data Scientist II at Vail Systems, Inc.",
+        "hallucinated_entities_in_response": 0.3333333333333333
+    },
+    {
+        "question": "What tool did he develop during his Amazon internship?",
+        "expected_answer": "He developed a custom LLM app to explain knowledge graph differences and detect network routing anomalies, achieving 99% accuracy in summarizing path attributes with KGAG.",
+        "generated_answer": "During his Amazon internship, Henry Liang developed a custom LLM app to explain knowledge graph differences and detect network routing anomalies.",
+        "hallucinated_entities_in_response": 0.6666666666666666
+    },
+    {
+        "question": "Which internship involved building an ETL pipeline for analyzing game metrics?",
+        "expected_answer": "Henry built an ETL pipeline for analyzing game-level metrics at Roblox during his Data Science Internship.",
+        "generated_answer": "The internship involved building an ETL pipeline with Spark SQL for analyzing game-level metrics. This aligns with the role of Data Science Intern from the company Roblox, where they were tasked with creating an ETL pipeline with Spark SQL for analyzing game-level metrics across 1,000,000,000+ observations.",
+        "hallucinated_entities_in_response": 0.5714285714285714
+    },
+    {
+        "question": "What was his role at Northwestern University?",
+        "expected_answer": "He was a Machine Learning Researcher at Northwestern University, where he designed and implemented a scalable AWS IoT pipeline for real-time forecasting.",
+        "generated_answer": "At Northwestern University, Henry Liang held several roles. His primary position was as a Data Scientist II. He also had responsibilities as a Data Science Intern, a Machine Learning Researcher, and an Applied Scientist Intern (Capstone).",
+        "hallucinated_entities_in_response": 0.6666666666666666
+    },
+    {
+        "question": "What programming languages does Henry know?",
+        "expected_answer": "Henry is proficient in Python, R, PostgreSQL, Java, and JavaScript.",
+        "generated_answer": "Henry knows the following programming languages:\n- Python\n- R\n- PostgreSQL\n- Java\n- JavaScript",
+        "hallucinated_entities_in_response": 0.0
+    },
+    {
+        "question": "What machine learning tools is he skilled in?",
+        "expected_answer": "He is skilled in TensorFlow, PyTorch, LangChain, and Hugging Face.",
+        "generated_answer": "Based on the provided information, Henry Liang is skilled in several machine learning tools:\n\n1. Python\n2. R\n3. PostgreSQL\n4. Java\n5. JavaScript\n6. TensorFlow\n7. PyTorch\n8. LangChain\n9. Hugging Face\n10. Git\n11. Docker\n12. Kubernetes\n13. Apache Spark\n14. Apache Hadoop",
+        "hallucinated_entities_in_response": 0.9523809523809523
+    },
+    {
+        "question": "What cloud and container tools does he use?",
+        "expected_answer": "He uses Docker, Kubernetes, and has experience with AWS IoT pipelines.",
+        "generated_answer": "Henry Liang uses the following cloud and container tools:\n- Docker\n- Kubernetes",
+        "hallucinated_entities_in_response": 1.0
+    },
+    {
+        "question": "Which languages does Henry speak?",
+        "expected_answer": "Henry speaks English, Mandarin, and French.",
+        "generated_answer": "Henry speaks English and Mandarin.",
+        "hallucinated_entities_in_response": 0.0
+    },
+    {
+        "question": "What tools has he used for big data processing?",
+        "expected_answer": "He has used Apache Spark and Apache Hadoop for big data processing.",
+        "generated_answer": "Based on the provided information, Henry Liang has utilized several tools for big data processing tasks:\n\n1. **Programming languages**: He uses Python, Java, JavaScript, and others like R, PostgreSQL, and LangChain.\n2. **Big data platforms**: He works with Apache Spark and Apache Hadoop.\n3. **Data storage**: He utilizes databases like PostgreSQL and Docker for data management.\n4. **Machine learning libraries**: He employs TensorFlow, PyTorch, and Hugging Face.\n5. **Tools for data analysis and processing**: He may also utilize Git, Docker, Kubernetes, and other tools specific to his field of expertise.\n\nSo, to directly answer the question based on the given information:\nHenry Liang has extensively used programming languages, big data platforms, database management systems, machine learning libraries, and various tools related to data analysis and processing.",
+        "hallucinated_entities_in_response": 0.9444444444444444
+    }
+]
