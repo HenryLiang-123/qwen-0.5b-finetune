@@ -13,11 +13,11 @@ work_experience:
     start_date: Feb 2024
     end_date: Present
     achievements:
-      - "Created a novel hybrid embedding reducing no-context rate for RFP completion by 83.33%, leading to paper acceptance at AI-ML Systems Conference (Oct 2024)"
-      - "Led production of an FAQ chatbot using a RAG framework, achieving 99.18% top-5 retrieval accuracy"
-      - "Reduced FAQ system latency by 65% through data curation, embedding optimization, and HNSW indexing"
-      - "Improved unit test reliability and processing efficiency for LLM evaluation with Deep Eval and Llama-Cpp grammar"
-      - "Extended FAQ chatbot functionality to support 10,000+ documents, including API documentation and code samples"
+      - "Created a novel hybrid embedding reducing no-context rate for RFP completion by 83.33%, leading to paper acceptance and invited talk at AI-ML Systems Conference (Oct 2024)"
+      - "Led production of an FAQ chatbot using a Retrieval-Augmented Generation (RAG) framework, achieving 99.18% top-5 retrieval accuracy"
+      - "Reduced FAQ system latency by 65% through data curation, embedding optimization, and HNSW indexing with PostgreSQL"
+      - "Designed an automated feedback generation and collection system for RAG evaluation using the Deep Eval framework, ensuring consistent and reliable assessment of answer quality"
+      - "Improved unit test failure rate by 99.9% and processing time by 95.71% through logit processing to restrict LLM outputs to a specific JSON format"
 
   - title: Applied Scientist Intern (Capstone)
     company: Amazon
@@ -25,9 +25,9 @@ work_experience:
     start_date: Sept 2023
     end_date: Dec 2023
     achievements:
-      - "Developed a custom LLM app to explain knowledge graph differences and detect network routing anomalies"
-      - "Achieved 99% accuracy in summarizing path attributes with KGAG"
-      - "Reduced erroneous Cypher queries by 95% through prompt engineering and fine-tuning"
+      - "Developed a custom LLM app with LangChain to explain knowledge graph differences and detect network routing anomalies"
+      - "Achieved 99% accuracy in summarizing path-related attributes with knowledge graph augmented generation (KGAG)"
+      - "Reduced erroneous Cypher queries by 95% through prompt engineering and fine-tuning of query generation using a few-shot learning feedback loop"
 
   - title: Data Science Intern
     company: Roblox
@@ -35,10 +35,8 @@ work_experience:
     start_date: June 2023
     end_date: Sept 2023
     achievements:
-      - "Architected a diagnostic framework isolating monetization and update frequency as drivers of impression changes"
-      - "Created a 94% accurate early warning system using an XGBoost model"
-      - "Implemented an anomaly detection algorithm for extreme shifts in game impressions"
-      - "Designed an ETL pipeline with Spark SQL for analyzing game-level metrics across 1,000,000,000+ observations"
+      - "Created a 94% accurate early warning system and diagnostic framework for game developers using an XGBoost model to forecast significant impression shifts"
+      - "Designed an ETL pipeline with Spark SQL to analyze game-level metrics across 1,000,000,000+ observations"
 
   - title: Machine Learning Researcher
     company: Northwestern University
@@ -46,9 +44,15 @@ work_experience:
     start_date: Oct 2022
     end_date: June 2023
     achievements:
-      - "Designed and implemented a scalable AWS IoT pipeline for real-time forecasting; achieved 55 predictions per second"
-      - "Optimized data ingestion and retraining pipelines, improving efficiency by 75% and reducing costs by 50%"
-      - "Deployed an LSTM model for hourly Divvy bike demand forecasting with a mean absolute error of 9 bikes"
+      - "Led design and implementation of a scalable AWS IoT streaming pipeline for real-time time-series forecasting; achieved a throughput of 55 predictions per second"
+      - "Trained and deployed an LSTM model for hourly Divvy bike demand forecasting, achieving a mean absolute error of 9 bikes"
+
+projects:
+  - name: Browser Personal Assistant
+    url: "https://HenryLiang-123.github.io"
+    description: |
+      - Developed a virtual assistant powered by Qwen 2.5 3B using webLLM for in-browser execution via WebGPU, enabling token streaming and real-time interaction.
+      - Designed a hallucination detection strategy using named entity recognition (NER) with RoBERTa and spaCy, ensuring consistent detection of false information.
 
 skills:
   programming_languages: 

@@ -1,0 +1,73 @@
+{
+    "qa_dataset": [
+      {
+        "question": "Where did Henry complete his master's degree?",
+        "answer": "Henry completed his M.S. in Machine Learning and Data Science at Northwestern University, graduating in December 2023."
+      },
+      {
+        "question": "What was his undergraduate degree in?",
+        "answer": "His undergraduate degree was a B.S. in Applied Mathematics and Statistics from the University of California, Los Angeles, which he completed in March 2022."
+      },
+      {
+        "question": "Which institutions did Henry attend for his higher education?",
+        "answer": "Henry attended Northwestern University for his master's degree and the University of California, Los Angeles, for his bachelor's degree."
+      },
+      {
+        "question": "What is Henry's current job title?",
+        "answer": "Henry's current job title is Data Scientist II at Vail Systems, Inc."
+      },
+      {
+        "question": "What major achievement did Henry accomplish at Vail Systems?",
+        "answer": "Henry created a novel hybrid embedding that reduced the no-context rate for RFP completion by 83.33%, leading to a paper acceptance and invited talk at the AI-ML Systems Conference in October 2024."
+      },
+      {
+        "question": "What framework did Henry use to build the FAQ chatbot at Vail Systems?",
+        "answer": "He used a Retrieval-Augmented Generation (RAG) framework to build the FAQ chatbot."
+      },
+      {
+        "question": "What was the improvement in FAQ system latency that Henry achieved at Vail Systems?",
+        "answer": "Henry reduced FAQ system latency by 65% through data curation, embedding optimization, and HNSW indexing with PostgreSQL."
+      },
+      {
+        "question": "What did Henry work on during his internship at Amazon?",
+        "answer": "During his Amazon internship, Henry developed a custom LLM app to explain knowledge graph differences and detect network routing anomalies, achieving 99% accuracy in summarizing path-related attributes with KGAG."
+      },
+      {
+        "question": "Which company did Henry intern at before Amazon?",
+        "answer": "Before Amazon, Henry interned at Roblox as a Data Science Intern."
+      },
+      {
+        "question": "What early warning system did Henry develop at Roblox?",
+        "answer": "Henry developed a 94% accurate early warning system using an XGBoost model to forecast significant impression shifts."
+      },
+      {
+        "question": "What real-time forecasting system did Henry design at Northwestern University?",
+        "answer": "Henry designed a scalable AWS IoT streaming pipeline for real-time time-series forecasting, achieving a throughput of 55 predictions per second."
+      },
+      {
+        "question": "Which programming languages is Henry proficient in?",
+        "answer": "Henry is proficient in Python, R, PostgreSQL, Java, and JavaScript."
+      },
+      {
+        "question": "What big data tools does Henry have experience with?",
+        "answer": "Henry has experience with Apache Spark and Apache Hadoop."
+      },
+      {
+        "question": "What containerization tools does Henry use?",
+        "answer": "Henry uses Docker and Kubernetes for containerization."
+      },
+      {
+        "question": "What languages can Henry speak?",
+        "answer": "Henry speaks English, Mandarin, and French."
+      },
+      {
+        "question": "What tools has Henry used for machine learning?",
+        "answer": "Henry has used TensorFlow, PyTorch, LangChain, and Hugging Face for machine learning."
+      },
+      {
+        "question": "What cloud service did Henry use in his real-time forecasting project?",
+        "answer": "Henry used AWS IoT pipelines and AWS EC2 for his real-time forecasting project."
+      }
+    ]
+  }
+  
